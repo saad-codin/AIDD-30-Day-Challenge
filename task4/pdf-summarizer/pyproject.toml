@@ -1,12 +1,11 @@
 [project]
-name = "pdfsummarizer"
+name = "pdf-summarizer"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "openai-agents>=0.6.1",
-    "streamlit",
-    "pypdf2",
-    "openai"
+    "pypdf2>=3.0.1",
+    "streamlit>=1.51.0",
 ]
